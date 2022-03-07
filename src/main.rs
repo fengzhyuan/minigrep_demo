@@ -1,7 +1,7 @@
 use std::{env, process};
 
-use minigrep::Config;
-use minigrep::run;
+use minigrep_demo_fengzhyuan::Config;
+use minigrep_demo_fengzhyuan::run;
 
 fn main() {
     let config = Config::new(env::args()).unwrap_or_else(|err| {
